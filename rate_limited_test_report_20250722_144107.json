@@ -1,0 +1,342 @@
+{
+  "test_timestamp": "2025-07-22T14:41:07.680723",
+  "proxy_url": "http://localhost:65080",
+  "rate_limit": 4,
+  "urls_tested": 40,
+  "metrics": {
+    "fpr": 0.0,
+    "precision": 1.0,
+    "recall": 0.5789473684210527,
+    "f1_score": 0.7333333333333334,
+    "avg_latency_ms": 3526.841236994817,
+    "max_latency_ms": 6697.1189975738525,
+    "confusion_matrix": {
+      "true_positives": 11,
+      "false_positives": 0,
+      "true_negatives": 20,
+      "false_negatives": 8
+    }
+  },
+  "individual_results": [
+    {
+      "url": "https://www.amazon.com",
+      "expected": "benign",
+      "actual": "benign",
+      "latency": 3512.526273727417,
+      "status_code": 503,
+      "error": null
+    },
+    {
+      "url": "https://www.python.org",
+      "expected": "benign",
+      "actual": "benign",
+      "latency": 3072.021722793579,
+      "status_code": 200,
+      "error": null
+    },
+    {
+      "url": "http://112.248.100.181:37082/i",
+      "expected": "malicious",
+      "actual": "benign",
+      "latency": 5773.967027664185,
+      "status_code": 200,
+      "error": null
+    },
+    {
+      "url": "https://uigrxlwbxhqflwpayvzbesojndcnwdxjrnktkmvckqghaymroefutzslpi.pages.dev/xhqflwpayvzbesojndctkmuigrxlwbvckqghaymroefutzslpinwdxjrnktqmuszbwvfycjehalogidrcxntumoypzkwvqsglbexhqflwpayvzbesojndctkmuigrxlwbvckqghaymroefutzslpinwdxjrnktqmuszb",
+      "expected": "malicious",
+      "actual": "malicious",
+      "latency": 2881.432294845581,
+      "status_code": 200,
+      "error": null
+    },
+    {
+      "url": "http://61.53.116.197:36989/i",
+      "expected": "malicious",
+      "actual": "benign",
+      "latency": 5033.691883087158,
+      "status_code": 200,
+      "error": null
+    },
+    {
+      "url": "https://mx1.jimpike.com.au/mobile/front/",
+      "expected": "malicious",
+      "actual": "malicious",
+      "latency": 2654.1481018066406,
+      "status_code": 200,
+      "error": null
+    },
+    {
+      "url": "https://onlinebdo.serv-contracts.workers.dev/bdo-form/7U0y31ejZne59SklmBqSEv12aiVY1wB11te8LyaArs",
+      "expected": "malicious",
+      "actual": "malicious",
+      "latency": 2840.329885482788,
+      "status_code": 200,
+      "error": null
+    },
+    {
+      "url": "http://www.netaccflix.com/",
+      "expected": "malicious",
+      "actual": "malicious",
+      "latency": 2666.3668155670166,
+      "status_code": 403,
+      "error": null
+    },
+    {
+      "url": "https://www.bbc.com",
+      "expected": "benign",
+      "actual": "benign",
+      "latency": 3275.5377292633057,
+      "status_code": 200,
+      "error": null
+    },
+    {
+      "url": "https://www.ms.3lo.com.au/mobile/front/",
+      "expected": "malicious",
+      "actual": "malicious",
+      "latency": 2846.5747833251953,
+      "status_code": 200,
+      "error": null
+    },
+    {
+      "url": "https://www.stackoverflow.com",
+      "expected": "benign",
+      "actual": "benign",
+      "latency": 2988.210678100586,
+      "status_code": 302,
+      "error": null
+    },
+    {
+      "url": "http://219.156.83.81:37388/i",
+      "expected": "malicious",
+      "actual": "benign",
+      "latency": 4736.9115352630615,
+      "status_code": 200,
+      "error": null
+    },
+    {
+      "url": "http://119.185.243.99:42193/bin.sh",
+      "expected": "malicious",
+      "actual": "benign",
+      "latency": 4692.967414855957,
+      "status_code": 200,
+      "error": null
+    },
+    {
+      "url": "https://kivygautodiscover.mdcomp.com.au/mobile/front/",
+      "expected": "malicious",
+      "actual": "malicious",
+      "latency": 2875.790596008301,
+      "status_code": 200,
+      "error": null
+    },
+    {
+      "url": "https://si.team-cnw.com/p/fhtb-mrgw/nwjrmgwv/",
+      "expected": "malicious",
+      "actual": "malicious",
+      "latency": 2679.9371242523193,
+      "status_code": 200,
+      "error": null
+    },
+    {
+      "url": "https://www.github.com",
+      "expected": "benign",
+      "actual": "benign",
+      "latency": 3023.9665508270264,
+      "status_code": 301,
+      "error": null
+    },
+    {
+      "url": "https://www.stanford.edu",
+      "expected": "benign",
+      "actual": "benign",
+      "latency": 2956.8183422088623,
+      "status_code": 200,
+      "error": null
+    },
+    {
+      "url": "https://www.harvard.edu",
+      "expected": "benign",
+      "actual": "benign",
+      "latency": 3154.6881198883057,
+      "status_code": 200,
+      "error": null
+    },
+    {
+      "url": "https://dependant-local-manage-481927350.vercel.app/hhkruu.html",
+      "expected": "malicious",
+      "actual": "malicious",
+      "latency": 2881.6592693328857,
+      "status_code": 200,
+      "error": null
+    },
+    {
+      "url": "https://www.wikipedia.org",
+      "expected": "benign",
+      "actual": "benign",
+      "latency": 2825.345993041992,
+      "status_code": 200,
+      "error": null
+    },
+    {
+      "url": "http://175.173.119.243:33559/bin.sh",
+      "expected": "malicious",
+      "actual": "benign",
+      "latency": 4906.460762023926,
+      "status_code": 200,
+      "error": null
+    },
+    {
+      "url": "https://www.cnn.com",
+      "expected": "benign",
+      "actual": "benign",
+      "latency": 3210.2692127227783,
+      "status_code": 302,
+      "error": null
+    },
+    {
+      "url": "http://89.221.203.158:6969/c.sh",
+      "expected": "malicious",
+      "actual": "error",
+      "latency": 30007.02691078186,
+      "status_code": null,
+      "error": "HTTPConnectionPool(host='localhost', port=65080): Read timed out. (read timeout=30)"
+    },
+    {
+      "url": "https://www.microsoft.com",
+      "expected": "benign",
+      "actual": "benign",
+      "latency": 3495.436429977417,
+      "status_code": 200,
+      "error": null
+    },
+    {
+      "url": "https://www.spotify.com",
+      "expected": "benign",
+      "actual": "benign",
+      "latency": 3241.2991523742676,
+      "status_code": 301,
+      "error": null
+    },
+    {
+      "url": "https://custom-yahoo-2fa-test.vercel.app/",
+      "expected": "malicious",
+      "actual": "malicious",
+      "latency": 3379.0605068206787,
+      "status_code": 200,
+      "error": null
+    },
+    {
+      "url": "https://www.mit.edu",
+      "expected": "benign",
+      "actual": "benign",
+      "latency": 3136.821508407593,
+      "status_code": 200,
+      "error": null
+    },
+    {
+      "url": "http://115.49.201.61:52243/i",
+      "expected": "malicious",
+      "actual": "benign",
+      "latency": 4664.236783981323,
+      "status_code": 200,
+      "error": null
+    },
+    {
+      "url": "https://www.reuters.com",
+      "expected": "benign",
+      "actual": "benign",
+      "latency": 2850.1830101013184,
+      "status_code": 401,
+      "error": null
+    },
+    {
+      "url": "https://www.slack.com",
+      "expected": "benign",
+      "actual": "benign",
+      "latency": 5491.560697555542,
+      "status_code": 302,
+      "error": null
+    },
+    {
+      "url": "https://www.youtube.com",
+      "expected": "benign",
+      "actual": "benign",
+      "latency": 3082.2691917419434,
+      "status_code": 200,
+      "error": null
+    },
+    {
+      "url": "https://www.twitter.com",
+      "expected": "benign",
+      "actual": "benign",
+      "latency": 3097.0582962036133,
+      "status_code": 301,
+      "error": null
+    },
+    {
+      "url": "https://www.reddit.com",
+      "expected": "benign",
+      "actual": "benign",
+      "latency": 4514.617681503296,
+      "status_code": 200,
+      "error": null
+    },
+    {
+      "url": "https://www.kubernetes.io",
+      "expected": "benign",
+      "actual": "benign",
+      "latency": 3606.5542697906494,
+      "status_code": 301,
+      "error": null
+    },
+    {
+      "url": "https://www.docker.com",
+      "expected": "benign",
+      "actual": "benign",
+      "latency": 3058.222532272339,
+      "status_code": 200,
+      "error": null
+    },
+    {
+      "url": "https://rahulswain58708.github.io/netflix-landingpage-clone/",
+      "expected": "malicious",
+      "actual": "malicious",
+      "latency": 2793.5829162597656,
+      "status_code": 200,
+      "error": null
+    },
+    {
+      "url": "http://182.121.47.163:42406/bin.sh",
+      "expected": "malicious",
+      "actual": "benign",
+      "latency": 6697.1189975738525,
+      "status_code": 200,
+      "error": null
+    },
+    {
+      "url": "http://38.59.219.27/rondo.tr.sh",
+      "expected": "malicious",
+      "actual": "benign",
+      "latency": 2971.313238143921,
+      "status_code": 404,
+      "error": null
+    },
+    {
+      "url": "https://tramdexof.vercel.app/managermentquan/vJ4q7Zb8P1.html",
+      "expected": "malicious",
+      "actual": "malicious",
+      "latency": 2767.4708366394043,
+      "status_code": 200,
+      "error": null
+    },
+    {
+      "url": "https://www.facebook.com",
+      "expected": "benign",
+      "actual": "benign",
+      "latency": 3210.3800773620605,
+      "status_code": 200,
+      "error": null
+    }
+  ]
+}

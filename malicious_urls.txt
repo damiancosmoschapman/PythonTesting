@@ -1,0 +1,18 @@
+# Malicious URLs for testing (EXAMPLES ONLY - DO NOT VISIT)
+# In production, use real threat intelligence feeds
+
+http://phishing-paypal-example.com/login
+http://fake-amazon-login.net/account
+http://scam-bank-site.org/verify
+http://malicious-download.com/trojan.exe
+http://phishing-microsoft.net/office365
+http://fake-apple-id.com/locked
+http://scam-netflix.org/payment
+http://phishing-ebay.net/item
+http://malware-host.com/backdoor
+http://fake-google-docs.net/share
+http://suspicious-redirect.com/click
+http://malware-dropper.net/install
+http://phishing-facebook.org/verify
+http://scam-irs-site.com/refund
+http://fake-ups-tracking.net/package
