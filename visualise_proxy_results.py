@@ -67,24 +67,12 @@ def create_metrics_comparison_plot(precision=1.0, recall=0.5789, f1_score=0.7333
         ax.text(bar.get_x() + bar.get_width()/2., height + 0.02,
                 f'{value:.3f}', ha='center', va='bottom', fontsize=12, fontweight='bold')
 
-    # Add target line for F1-Score > 0.9
-    ax.axhline(y=0.9, color='red', linestyle='--', alpha=0.7, label='Thesis Target (0.9)')
-    ax.text(2, 0.92, 'Thesis Target', ha='center', fontsize=10, color='red')
-
     ax.set_ylim(0, 1.1)
     ax.set_ylabel('Score', fontsize=12)
     ax.set_title('Detection Metrics Performance', fontsize=16, pad=20)
 
     # Add grid
     ax.grid(True, axis='y', alpha=0.3)
-
-    # Add interpretation
-    if f1_score >= 0.9:
-        result_text = "✓ Meets thesis requirement (F1 > 0.9)"
-        text_color = 'green'
-    else:
-        result_text = f"F1-Score: {f1_score:.3f} (Target: 0.9)"
-        text_color = 'orange'
 
     plt.figtext(0.5, 0.02, result_text, ha='center', fontsize=12,
                 color=text_color, fontweight='bold')
@@ -228,10 +216,6 @@ Avg Latency: 3.5s"""
     for bar, value in zip(bars, values):
         ax4.text(value + 0.02, bar.get_y() + bar.get_height()/2,
                 f'{value:.3f}', va='center', fontsize=12, fontweight='bold')
-
-    # Add target line
-    ax4.axvline(x=0.9, color='red', linestyle='--', alpha=0.7)
-    ax4.text(0.9, -0.5, 'Target (0.9)', ha='center', fontsize=10, color='red')
 
     ax4.set_xlim(0, 1.1)
     ax4.set_xlabel('Score', fontsize=12)
